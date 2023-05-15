@@ -1,0 +1,1393 @@
+
+.topheader{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    
+    height: 60px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    justify-content: space-between;
+    background-color: #FFFF;
+    box-shadow: 1px 1px 20px 0.5px rgba(129, 129, 129, 0.268);
+    
+}
+.topheader img{
+    margin-top: 20px;
+}
+.topheader span{
+    padding-top: 20px;
+}
+.linktext{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.topheader button{
+    color: #0099FF;
+    border-style: inset;
+    border: 2px solid #0099FF;
+    background-color: #FFFF;
+    margin-right: 5%;
+    margin-top: 9px;
+    height: 40px;
+   
+} 
+.hide-a{
+    display: none;
+}
+
+.firstpage {
+    margin-top: 5%;
+    overflow: clip;
+    display: flex;
+
+   
+    
+}
+
+.firstpage img:first-child {
+    margin-right: 20px;
+
+}
+
+.firstpage button{
+    position: absolute;
+    width: 200px;
+    height: 54px;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+
+}
+
+
+
+.losung{
+position: absolute;
+z-index: 2;
+margin-top: 200px;
+font-weight: bolder;
+margin-left: 100px;
+font-family: 'Poppins', sans-serif;
+letter-spacing: 5px;
+font-size: 50px;
+}
+
+
+.losungtext{
+  position: absolute;
+  z-index: 1;
+  margin-top: 330px;
+  font-weight: Medium;
+  margin-left: 100px;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #999999;
+}
+.secondpage{
+    background-color: #D7F1F6;
+    position: relative;
+}
+
+.secondpage p:first-child{
+    padding-top: 5%;
+    text-align: center;
+    line-height: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.secondpage h3{
+    text-align: center;
+    line-height: 100%;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+.thirdpage{
+    display: flex;
+    justify-content:space-around;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.thirdpage p:first-child{
+    font-weight: 600;
+}
+.thirdpage h1{
+    font-weight: bold;
+}
+
+.thirdpage p:last-child{
+    color: #999999;
+    font-weight: 500;
+
+}
+.thirdpage div button{
+    width: 40%;
+    height: 40px;
+}
+
+/* .thirdpage img:first-child{
+    width: 402px;
+    height: 501px;
+} */
+
+
+
+.lastpage{
+    margin-top: 150px;
+    background-color: #333333;
+    color: white;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+}
+.lastpage h1{
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.lastpage div{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-left: 50px;
+    margin-right: 300px;
+
+    padding-bottom: 100px;
+}
+.lastpage button{
+    width: 170px;
+    height: 40px;
+}
+.firstgroup{
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.footer_logo{
+    height: 25px;
+    margin-bottom: 10px;
+}
+
+footer{
+    background-color: #F1FAFC;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.firstgroup p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+}
+.footer_socialmedia{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 230px;
+    
+}
+
+.secondgroup{
+    margin-top: 80px;
+}
+
+.secondgroup a:first-child{
+    font-weight: bold;
+    font-size: 18px;
+}
+.secondgroup a{
+    color: black;
+    display: block;
+    margin-top: 20px;
+}
+
+
+.thirdgroup{
+    margin-top: 100px;
+    margin-right: 150px;
+}
+
+.thirdgroup p{
+    font-weight: bold;
+    font-size: 18px;
+}
+.thirdgroup input{
+    background-color: #333333 !important;
+    height: 50px;
+    color:#FFFF;
+}
+.thirdgroup button{
+    margin-top: 20px;
+    width: 170px;
+    height: 45px;
+}
+/*? Cards */
+.card-StepCheck{
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+.card-StepCheck div{
+    margin-left: 5%;
+    background-color: #FFFFFF;
+    width: 15%;
+    height: 10%;
+    border-radius: 2px;
+    display: block;
+    margin-top: -50px;
+    
+
+}
+.card-StepCheck h6{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Popins', sans-serif;
+}
+.card-StepCheck p{
+    padding-top: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Popins', sans-serif;
+    color: #999999;
+    font-weight: bold;
+}
+.card-StepCheck img{
+    width: 90px;
+    height: 80px;
+    position: absolute;
+}
+.card-StepCheck img:first-child{
+    margin-left: 9%;
+    margin-top: -100px;
+}
+
+.card-StepCheck .healhcare2{
+    margin-left: 47%;
+    margin-top: -100px;
+}
+
+.card-StepCheck .doctor2{
+    margin-left: 85%;
+    margin-top: -100px;
+}
+
+
+
+/*?Card2 */
+.PhotoCard{
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px; 
+}
+.photocard-div{
+    margin-left: 40px;
+}
+.photoCard .PhotoDoctors{
+    position: absolute;
+    
+}
+
+.first-textphotocard{
+    position: relative;
+    width: 230px;
+    height: 122px;
+    margin: 0 auto;
+    padding-left: 20px;
+    background: #FFFFFF;
+    top: -45px;
+    border-radius: 2px;
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 7px;
+}
+.social-media img{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.social-media img:first-child{
+    width: 6px !important;
+}
+.social-media img:nth-child(2){
+    width: 7px !important;
+}
+.first-textphotocard .nameDoc{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.first-textphotocard .arbeitClass{
+    font-size: 16px;
+    font-weight: bold;
+}
+/* /// */
+
+.thirdpage{
+    margin-top: 100px;
+    margin-left: 20px;
+    
+}
+.thirdpage img{
+    width: 372px;
+   height: 394px;
+   display: inline-block;
+   padding-top: 0px;
+   margin-left: 50px;
+   margin-bottom: 100px;
+}
+
+.ratingpage{
+    margin-top: 70px;
+    margin-left: 40px;
+
+}
+.ratingpage p{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ratingpage h1{
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.rating-flex{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.rating-div{
+    background-color: #F1FAFC;
+    border-radius: 2px;
+    box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.536);
+    
+    
+}
+.rating-div h3{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+.rating-div p{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333333;
+}
+.rating-div img:last-child{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
+.rating-div img{
+    border-radius: 2px;
+    width: 450px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/*! 
+/*!!
+/*!!! */
+
+
+/*! Media */
+@media (max-width: 868px) {
+    .linktext {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        /* margin-left: 20px; */
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .firstpage .losung {
+        font-size: 20px;
+    }
+    
+    .losung {
+        position: absolute;
+        z-index: 2;
+        margin-top: 190px;
+        font-weight: bold;
+        margin-left: 60px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    .firstpage .losungtext {
+        font-size: 15px;
+    }
+    
+    .losungtext {
+        position: absolute;
+        z-index: 1;
+        margin-top: 300px;
+        font-weight: Medium;
+        margin-left: 50px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #999999;
+    }
+
+    .firstpage img:first-child{
+        width: 752px;
+        height: 794px;
+    }
+    .firstpage img:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 150px;
+    }   
+    .firstpage button{
+        margin-top: 400px;
+        margin-left: 7%;
+    }
+    .firstpage img:first-child{
+        width: 450px;
+    }
+    .card-StepCheck img:first-child {
+        margin-left: 12%;
+        margin-top: -100px;
+    }
+    .card-StepCheck div {
+        margin-left: 5%;
+        background-color: #FFFFFF;
+        width: 30%;
+        height: 10%;
+        border-radius: 2px;
+        display: block;
+        margin-top: -50px;
+    }
+
+    .card-StepCheck .healhcare2 {
+        margin-left: 42%;
+        margin-top: -100px;
+    }
+    .card-StepCheck .doctor2 {
+        margin-left: 72%;
+        margin-top: -100px;
+    }
+    .lastpage div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .firstgroup {
+        /* margin-left: 50px; */
+        margin-top: 100px;
+    }   
+    footer div {
+        margin-left: 60px;
+    }
+
+
+
+
+    .topheader img{
+        width: 60px;
+        height: 20px;
+        margin-left: 10px;
+    }
+    .topheader span{
+        margin-left: 10%;
+        display: contents;
+    }
+    .topheader button{
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 100px;
+        height: 40px;
+    }  
+
+
+       /*?Card2 */
+.PhotoCard{
+    margin-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px; 
+}
+.photocard-div{
+    margin-left: 20px;
+}
+.photoCard .PhotoDoctors{
+    position: absolute;
+    
+}
+
+.first-textphotocard{
+    position: relative;
+    width: 170px;
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 10px;
+    background: #FFFFFF;
+    top: -45px;
+    border-radius: 2px;
+    
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 7px;
+}
+.social-media img{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.social-media img:first-child{
+    width: 6px !important;
+}
+.social-media img:nth-child(2){
+    width: 7px !important;
+}
+.first-textphotocard .nameDoc{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.first-textphotocard .arbeitClass{
+    font-size: 10px;
+    font-weight: bold;
+}
+.PhotoDoctors{
+    width: 170px;
+}
+
+.rating-div img {
+    border-radius: 2px;
+    width: 400px;
+    height: 250px;
+    margin-bottom: 20px;
+
+}
+.rating-flex {
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.ratingpage{
+    margin-top: 70px;
+    margin-left: 0;
+}
+.rating-div h3{
+    margin-left: 30px;
+}
+.rating-div p{
+    margin-left: 30px;
+}
+}
+@media (max-width: 380px) {
+
+    .thirdpage {
+         display: block; 
+        /* justify-content: space-around; */
+        font-family: 'Poppins', sans-serif;
+    }
+    .thirdpage div{
+        margin-bottom: 200px;
+    }
+    .linktext {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        /* margin-left: 20px; */
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .firstpage .losung {
+        font-size: 20px;
+    }
+    
+    .losung {
+        position: absolute;
+        z-index: 2;
+        margin-top: 190px;
+        font-weight: bold;
+        margin-left: 60px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    .firstpage .losungtext {
+        font-size: 15px;
+    }
+    
+    .losungtext {
+        position: absolute;
+        z-index: 1;
+        margin-top: 300px;
+        font-weight: Medium;
+        margin-left: 50px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #999999;
+    }
+
+    .firstpage img:first-child{
+        width: 752px;
+        height: 794px;
+    }
+    .firstpage img:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 150px;
+        display: none;
+    }  
+    .firstpage button{
+        margin-top: 400px;
+        margin-left: 7%;
+    }
+    .firstpage img:first-child{
+        width: 450px;
+    }
+    .card-StepCheck img:first-child {
+        margin-left: 12%;
+        margin-top: -100px;
+    }
+    .card-StepCheck div {
+        margin-left: 5%;
+        background-color: #FFFFFF;
+        width: 30%;
+        height: 10%;
+        border-radius: 2px;
+        display: block;
+        margin-top: -50px;
+    }
+
+    .card-StepCheck .healhcare2 {
+        margin-left: 42%;
+        margin-top: -100px;
+    }
+    .card-StepCheck .doctor2 {
+        margin-left: 72%;
+        margin-top: -100px;
+    }
+    .lastpage div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .firstgroup {
+        /* margin-left: 50px; */
+        margin-top: 100px;
+    }   
+    footer div {
+        margin-left: 60px;
+    }
+
+
+
+    .topheader img{
+        width: 70px;
+        height: 20px;
+        margin-left: 20px;
+    }
+
+    
+    .topheader span{
+        margin-left: 0%;
+        font-size: 12px;
+        
+    }
+    .topheader button{
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 100px;
+        height: 40px;
+        margin-left: 5px;
+       
+    } 
+    .firstpage{
+        margin-top: 100px;
+        height: 30%;
+        align-content: center;
+    }
+    .firstpage img{
+        width: 300px;
+        height: 300px;
+       
+       }
+    .firstpage img:last-child{
+        margin-left: 10%;
+    }
+
+    .card-StepCheck div {
+        margin-left: 5%;
+        background-color: #FFFFFF;
+        width: 40%;
+        height: 10%;
+        border-radius: 2px;
+        display: block;
+        margin-top: -50px;
+    }
+    .thirdpage img {
+        width: 372px;
+        height: 394px;
+        display: inline-block;
+        padding-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    .card-StepCheck img:first-child {
+        margin-left: 9%;
+        margin-top: -100px;
+    }
+    .card-StepCheck .healhcare2 {
+        margin-left: 40%;
+        margin-top: -100px;
+    }
+
+    .card-StepCheck .doctor2 {
+        margin-left: 71%;
+        margin-top: -100px;
+    }
+
+    .card-StepCheck {
+        margin-top: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+
+/*?Card2 */
+.PhotoCard {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    display: block;
+    /* justify-content: space-between; */
+    margin-right: 0;
+    margin-left: 100px;
+}
+.photocard-div{
+    margin-left: 20px;
+}
+.photoCard .PhotoDoctors{
+    position: absolute;
+    
+}
+
+.first-textphotocard {
+    position: relative;
+    width: 170px;
+    height: 100px;
+    margin: 0;
+    padding-left: 10px;
+    background: #FFFFFF;
+    top: -45px;
+    border-radius: 2px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 7px;
+}
+.social-media img{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.social-media img:first-child{
+    width: 6px !important;
+}
+.social-media img:nth-child(2){
+    width: 7px !important;
+}
+.first-textphotocard .nameDoc{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.first-textphotocard .arbeitClass{
+    font-size: 10px;
+    font-weight: bold;
+}
+.PhotoDoctors{
+    width: 170px;
+}
+
+.rating-div img {
+    border-radius: 2px;
+    width: 425px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.rating-flex {
+    display: block;
+    /* justify-content: space-around; */
+}
+
+.ratingpage{
+    margin-top: 70px;
+    margin-left: 0;
+}
+.rating-div h3{
+    margin-left: 30px;
+}
+.rating-div p{
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #F1FAFC;
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.secondgroup {
+    margin-top: 80px;
+    margin-left: 40%;
+}
+}
+@media (max-width: 430px) {
+
+    .thirdpage {
+         display: block; 
+        /* justify-content: space-around; */
+        font-family: 'Poppins', sans-serif;
+    }
+    .thirdpage div{
+        margin-bottom: 200px;
+    }
+    .linktext {
+        text-decoration: none;
+        color: black;
+        font-weight: 600;
+        /* margin-left: 20px; */
+        margin-top: 20px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .firstpage .losung {
+        font-size: 20px;
+    }
+    
+    .losung {
+        position: absolute;
+        z-index: 2;
+        margin-top: 190px;
+        font-weight: bold;
+        margin-left: 60px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+
+    .firstpage .losungtext {
+        font-size: 15px;
+    }
+    
+    .losungtext {
+        position: absolute;
+        z-index: 1;
+        margin-top: 300px;
+        font-weight: Medium;
+        margin-left: 50px;
+        font-family: 'Poppins', sans-serif;
+        letter-spacing: 1px;
+        font-size: 20px;
+        color: #999999;
+    }
+
+    .firstpage img:first-child{
+        width: 752px;
+        height: 794px;
+    }
+    .firstpage img:nth-child(2) {
+        width: 300px;
+        height: 300px;
+        margin-left: 0px;
+        margin-top: 150px;
+        display: none;
+    }  
+    .firstpage button{
+        margin-top: 400px;
+        margin-left: 7%;
+    }
+    .firstpage img:first-child{
+        width: 450px;
+    }
+    .card-StepCheck img:first-child {
+        margin-left: 12%;
+        margin-top: -100px;
+    }
+    .card-StepCheck div {
+        margin-left: 5%;
+        background-color: #FFFFFF;
+        width: 30%;
+        height: 10%;
+        border-radius: 2px;
+        display: block;
+        margin-top: -50px;
+    }
+
+    .card-StepCheck .healhcare2 {
+        margin-left: 42%;
+        margin-top: -100px;
+    }
+    .card-StepCheck .doctor2 {
+        margin-left: 72%;
+        margin-top: -100px;
+    }
+    .lastpage div {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+
+    .firstgroup {
+        /* margin-left: 50px; */
+        margin-top: 100px;
+    }   
+    footer div {
+        margin-left: 60px;
+    }
+
+
+
+    .topheader img{
+        width: 70px;
+        height: 20px;
+        margin-left: 20px;
+    }
+
+    
+    .topheader span{
+        margin-left: 0%;
+        font-size: 12px;
+        
+    }
+    .topheader button{
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 100px;
+        height: 40px;
+        margin-left: 5px;
+       
+    } 
+    .firstpage{
+        margin-top: 100px;
+        height: 30%;
+        align-content: center;
+    }
+    .firstpage img{
+        width: 300px;
+        height: 300px;
+       
+       }
+    .firstpage img:last-child{
+        margin-left: 10%;
+    }
+
+    .card-StepCheck div {
+        margin-left: 5%;
+        background-color: #FFFFFF;
+        width: 40%;
+        height: 10%;
+        border-radius: 2px;
+        display: block;
+        margin-top: -50px;
+    }
+    .thirdpage img {
+        width: 372px;
+        height: 394px;
+        display: inline-block;
+        padding-top: 0px;
+        margin-left: 10px;
+        margin-bottom: 100px;
+    }
+    .card-StepCheck img:first-child {
+        margin-left: 9%;
+        margin-top: -100px;
+    }
+    .card-StepCheck .healhcare2 {
+        margin-left: 40%;
+        margin-top: -100px;
+    }
+
+    .card-StepCheck .doctor2 {
+        margin-left: 71%;
+        margin-top: -100px;
+    }
+
+    .card-StepCheck {
+        margin-top: 50px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 20px;
+    }
+
+
+/*?Card2 */
+.PhotoCard {
+    margin-top: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    display: block;
+    /* justify-content: space-between; */
+    margin-right: 0;
+    margin-left: 100px;
+}
+.photocard-div{
+    margin-left: 20px;
+}
+.photoCard .PhotoDoctors{
+    position: absolute;
+    
+}
+
+.first-textphotocard {
+    position: relative;
+    width: 170px;
+    height: 100px;
+    margin: 0;
+    padding-left: 10px;
+    background: #FFFFFF;
+    top: -45px;
+    border-radius: 2px;
+}
+
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 10%;
+    padding-top: 7px;
+}
+.social-media img{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.social-media img:first-child{
+    width: 6px !important;
+}
+.social-media img:nth-child(2){
+    width: 7px !important;
+}
+.first-textphotocard .nameDoc{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.first-textphotocard .arbeitClass{
+    font-size: 10px;
+    font-weight: bold;
+}
+.PhotoDoctors{
+    width: 170px;
+}
+
+.rating-div img {
+    border-radius: 2px;
+    width: 425px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+.rating-flex {
+    display: block;
+    /* justify-content: space-around; */
+}
+
+.ratingpage{
+    margin-top: 70px;
+    margin-left: 0;
+}
+.rating-div h3{
+    margin-left: 30px;
+}
+.rating-div p{
+    margin-left: 30px;
+}
+
+footer {
+    background-color: #F1FAFC;
+    display: block;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+.secondgroup {
+    margin-top: 80px;
+    margin-left: 40%;
+}
+}
+@media (max-width: 320px) {
+    .topheader img{
+        width: 50px;
+        height: 15px;
+    }
+    .topheader span{
+        display: none;
+    }
+    .topheader button{
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 100px;
+        height: 40px;
+
+       
+    }
+
+    .topheader .dropdownmenu{
+        padding-top: 20px;
+    }
+    .hide-a{
+        display: grid;
+    } 
+
+    
+    .dropdownmenu {
+        position: absolute;
+        left: 80px;
+        right: 10px;
+        width: 100px;
+        top: 5px;
+        background-color: white;
+        border: 2px solid #0099FF;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        transition: 1s ease;
+      }
+      .dropdownmenu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        transition: 1s ease;
+      }
+      .dropdownmenu li {
+        margin: 10px;
+        transition: 1s ease;
+      }
+      .dropdownmenu:hover{
+        border: 2px solid #d4ff00;
+        transition: 1s ease;
+      }
+      .dropdownmenu li:hover{
+        background-color: rgba(128, 128, 128, 0.364);
+        font-size: 12px;
+        border-radius: 10px 10px 10px 10px;
+        transition: 1s ease;
+      }
+      .firstpage img{
+        width: 300px;
+        height: 300px;
+       
+       }
+    .firstpage img:last-child{
+        margin-left: 2%;
+    }
+    
+}
+@media (min-width: 868px) and (max-width: 1200px) {
+    .topheader img{
+        width: 70px;
+        height: 20px;
+    }
+    .topheader span{
+        margin-left: 10%;
+    }
+    .topheader button{
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 100px;
+        height: 40px;
+       
+    } 
+   .PhotoDoctors{
+    width: 230px;
+   }
+   .photocard-div{
+    width: 200px;
+   }
+
+   .firstpage img:first-child{
+    width: 752px;
+    height: 794px;
+}
+.firstpage img:nth-child(2){
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+.firstpage button{
+    margin-top: 450px;
+    margin-left: 7%;
+}
+.firstpage .losung{
+    font-size: 25px;
+    
+}
+.firstpage img:first-child{
+    width: 450px;
+}
+.firstpage .losungtext{
+    font-size: 15px;
+}
+}
+
+@media (min-width: 1200px) {
+    .topheader img{
+        margin-left: 50px;
+        height: 25px;
+    }
+    .topheader button{
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 120px;
+       
+    } 
+    .firstpage img:first-child{
+        width: 752px;
+        height: 794px;
+    }
+    .firstpage img:nth-child(2){
+        width: 625px;
+        height: 678px;
+    }
+    .firstpage button{
+        margin-top: 450px;
+        margin-left: 7%;
+    }
+}
+
+@media (min-width: 2000px) {
+    .topheader{
+        height: 120px;
+    }
+    .topheader a{
+        font-size: 40px;
+        justify-content: space-between;
+        margin-left: 80px;
+    }
+    .topheader img{
+        margin-left: 60px;
+        height: 60px;
+    }
+    .topheader button{
+        margin-top: 30px;
+        color: #0099FF;
+        border-style: inset;
+        border: 2px solid #0099FF;
+        width: 200px;
+        height: 60px;
+       font-size: 30px;
+    } 
+    .firstpage .losung{
+        font-size: 60px;
+    }
+    .firstpage .losungtext{
+        font-size: 25px;
+    }
+
+    .hero{
+        margin-left: 700px;
+    }
+    .card-StepCheck img:first-child{
+        margin-left: 270px;
+    }
+    .card-StepCheck .healhcare2{
+        margin-left: 1260px;
+    }
+    .card-StepCheck .doctor2{
+        margin-left: 2255px;
+    }
+    .thirdpage img:first-child{
+        margin-left: 250px;
+    }
+    .secondpage p:first-child{
+        font-size: 60px;
+    }
+    .secondpage h3:first-child{
+        font-size: 200px;
+        font-weight: bolder;
+    }
+    .card-StepCheck h6{
+        font-size: 50px
+    }
+    .card-StepCheck p{
+        font-size: 30px;
+    }
+    .secondgroup a{
+        font-size: 30px;
+    }
+    .secondgroup a:first-child{
+        font-size: 40px;
+    }
+    .lastpage h6{
+        font-size: 30px;
+    }
+}
