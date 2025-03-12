@@ -149,20 +149,29 @@ font-size: 50px;
     color: white;
     font-size: 40px;
     font-family: 'Poppins', sans-serif;
+    padding-bottom: 50px;
 }
 .lastpage h1{
     padding-top: 100px;
     padding-left: 50px;
+    margin-bottom: 50px;
 }
 
 .lastpage div{
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
     margin-left: 50px;
     margin-right: 300px;
+    padding-bottom: 40px;
+}
 
-    padding-bottom: 100px;
+
+.lastpage iframe {
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-left: 500px;
+
 }
 .lastpage button{
     width: 170px;
@@ -1390,4 +1399,7 @@ footer {
     .lastpage h6{
         font-size: 30px;
     }
+
+
+    
 }
