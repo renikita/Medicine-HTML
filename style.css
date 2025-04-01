@@ -1,4 +1,3 @@
-
 .topheader{
     position: absolute;
     display: flex;
@@ -47,7 +46,6 @@
     display: flex;
 
    
-    
 }
 
 .firstpage img:first-child {
@@ -140,8 +138,6 @@ font-size: 50px;
     width: 402px;
     height: 501px;
 } */
-
-
 
 .lastpage{
     margin-top: 150px;
@@ -296,8 +292,6 @@ footer{
     margin-top: -100px;
 }
 
-
-
 /*?Card2 */
 .PhotoCard{
     margin-top: 50px;
@@ -428,7 +422,6 @@ footer{
 /*!!
 /*!!! */
 
-
 /*! Media */
 @media (max-width: 868px) {
     .linktext {
@@ -527,9 +520,6 @@ footer{
         margin-left: 60px;
     }
 
-
-
-
     .topheader img{
         width: 60px;
         height: 20px;
@@ -546,7 +536,6 @@ footer{
         width: 100px;
         height: 40px;
     }  
-
 
        /*?Card2 */
 .PhotoCard{
@@ -739,7 +728,40 @@ footer{
         margin-left: 60px;
     }
 
+.animate {
+    transform: translateY(0);
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+}
 
+.rating-div, .photocard-div, .card-StepCheck div {
+    transform: translateY(50px);
+    opacity: 0;
+}
+
+.PhotoDoctors {
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.PhotoDoctors:hover {
+    transform: scale(2) translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+}
+
+.PhotoDoctors:hover::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
 
     .topheader img{
         width: 70px;
@@ -815,7 +837,6 @@ footer{
         justify-content: space-between;
         margin-right: 20px;
     }
-
 
 /*?Card2 */
 .PhotoCard {
@@ -1018,7 +1039,29 @@ footer {
         margin-left: 60px;
     }
 
+.PhotoDoctors {
+    transition: transform 0.3s ease-in-out, z-index 0.3s ease-in-out;
+    cursor: pointer;
+}
 
+.PhotoDoctors:hover {
+    transform: scale(2) translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1000;
+}
+
+.PhotoDoctors:hover::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 999;
+}
 
     .topheader img{
         width: 70px;
@@ -1094,7 +1137,6 @@ footer {
         justify-content: space-between;
         margin-right: 20px;
     }
-
 
 /*?Card2 */
 .PhotoCard {
@@ -1392,14 +1434,3 @@ footer {
     }
     .secondgroup a{
         font-size: 30px;
-    }
-    .secondgroup a:first-child{
-        font-size: 40px;
-    }
-    .lastpage h6{
-        font-size: 30px;
-    }
-
-
-    
-}

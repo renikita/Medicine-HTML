@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medicine</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Medicine</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
 <body>
     <header class="topheader">
         <img src="img/logo_hospital.png" alt="">
@@ -27,7 +27,7 @@
               <li><a href="#" class="linktext">Service</a></li>
             </ul>
           </details>
-        <button class="btn">Login</button>
+        <button class="btn" onclick="window.location.href='auth.html'">Login</button>
     </header>
 
     <section class="firstpage">
@@ -36,7 +36,7 @@
         <img class="hero" src="img/hero_image.png" alt="doctor">
         <h1 class="losung">We Care About <br> Your Health</h1>
         <h6 class="losungtext">check now your healty with our profesional<br> doctor, completed and modern fasilities<br> services</h6>
-        <button class="btn btn-primary">Check Now</button>
+        <button class="btn btn-primary" onclick="window.location.href='auth.html'">Check Now</button>
     </section>
     <section class="secondpage">
         <p>Our Services</p>
@@ -64,7 +64,7 @@
         <p>About Us</p>
         <h1>We Help Your Health</h1>
         <p>This profile describes the activities of health services and<br> medical support as well as the facilities and conditions of<br> the General Hospital which is reflected in the general public<br> served from all groups, religions and beliefs, ethnicity and<br> the level and frequency of bed occupancy which continues<br> to increase significantly.</p>
-        <button class="btn btn-primary">Check Now</button>
+        <button class="btn btn-primary" onclick="window.location.href='auth.html'">Check Now</button>
         </div>
     </section>
     
@@ -73,7 +73,9 @@
         <h3>Visit Our Professional<br> Specialists</h3>    
         <section class="PhotoCard">
         <div class="first-photocard photocard-div">
-            <img class="PhotoDoctors" src="img/Dr_Moegarman.png" alt="Dr_Moegarman">
+            <div class="photo-wrapper">
+                <img class="PhotoDoctors" src="img/Dr_Moegarman.png" alt="Dr_Moegarman">
+            </div>
             <div class="first-textphotocard">
                 <section class="social-media">
                     <img src="img/!!f.png" alt="facebook">
@@ -86,7 +88,9 @@
             </div>
         </div>
         <div class="second-photocard photocard-div">
-            <img class="PhotoDoctors" src="img/Antonius_Jansen.png" alt="Dr_Moegarman">
+            <div class="photo-wrapper">
+                <img class="PhotoDoctors" src="img/Antonius_Jansen.png" alt="Dr_Moegarman">
+            </div>
             <div class="first-textphotocard">
                 <section class="social-media">
                     <img src="img/!!f.png" alt="facebook">
@@ -100,7 +104,9 @@
             </div>
         </div>
         <div class="second-photocard photocard-div">
-            <img class="PhotoDoctors" src="img/Dr_Nadya_Navira.png" alt="Dr_Moegarman">
+            <div class="photo-wrapper">
+                <img class="PhotoDoctors" src="img/Dr_Nadya_Navira.png" alt="Dr_Moegarman">
+            </div>
             <div class="first-textphotocard">
                 <section class="social-media">
                     <img src="img/!!f.png" alt="facebook">
@@ -114,7 +120,9 @@
             </div>
         </div>
         <div class="second-photocard photocard-div">
-            <img class="PhotoDoctors" src="img/Muhammad_Ali_Syahputra.png" alt="Dr_Moegarman">
+            <div class="photo-wrapper">
+                <img class="PhotoDoctors" src="img/Muhammad_Ali_Syahputra.png" alt="Dr_Moegarman">
+            </div>
             <div class="first-textphotocard">
                 <section class="social-media">
                     <img src="img/!!f.png" alt="facebook">
@@ -243,5 +251,6 @@
             <button class="btn btn-primary">Subscibe</button>
         </div>
     </footer>
+    <script src="scrypt.js"></script>
 </body>
 </html>
